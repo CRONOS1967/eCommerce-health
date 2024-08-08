@@ -5,9 +5,13 @@ A fully functional project based on an Online  Ecommerce Website that uses PHP L
 ## Features:
 
 Client-Side Interaction.
+
 Admin Panel.
+
 Customer Registration.
+
 Add to Cart System.
+
 Checkout System
 Update Billing Address
 Search, Filter Products
