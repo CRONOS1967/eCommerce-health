@@ -4,33 +4,54 @@ A fully functional project based on an Online  Ecommerce Website that uses PHP L
 
 ## Features:
 
-Client-Side Interaction.
+1-Client-Side Interaction.
 
-Admin Panel.
+2-Admin Panel.
 
-Customer Registration.
+3-Customer Registration.
 
-Add to Cart System.
+4-Add to Cart System.
 
-Checkout System
-Update Billing Address
-Search, Filter Products
-Product Categories
-Featured Products
-Latest Products
-Popular Products
-View Order History
-Update Customer Profile
-Manage Website Settings
-Manage Shop Settings
-Product Management
-Order Management
-Pending Orders, Shippings
-Set up Image Sliders
-Set Shipping Charges
-Page Settings
-Set Social Media Links
-Subscribers
+5-Checkout System.
+
+6-Update Billing Address.
+
+7-Search, Filter Products.
+
+8-Product Categories.
+
+9-Featured Products.
+
+10-Latest Products.
+
+11-Popular Products.
+
+12-View Order History.
+
+13-Update Customer Profile.
+
+14-Manage Website Settings.
+
+15-Manage Shop Settings.
+
+16-Product Management.
+
+17-Order Management.
+
+Pending Orders.
+
+Shippings.
+
+Set up Image Sliders.
+
+Set Shipping Charges.
+
+Page Settings.
+
+Set Social Media Links.
+
+Subscribers.
+
 View Registered Customers.
 
 ## Featured, Latest and Popular Products:.
