@@ -38,21 +38,21 @@ A fully functional project based on an Online  Ecommerce Website that uses PHP L
 
 17-Order Management.
 
-Pending Orders.
+18-Pending Orders.
 
-Shippings.
+19-Shippings.
 
-Set up Image Sliders.
+20-Set up Image Sliders.
 
-Set Shipping Charges.
+21-Set Shipping Charges.
 
-Page Settings.
+22-Page Settings.
 
-Set Social Media Links.
+23-Set Social Media Links.
 
-Subscribers.
+24-Subscribers.
 
-View Registered Customers.
+25-View Registered Customers.
 
 ## Featured, Latest and Popular Products:.
 
