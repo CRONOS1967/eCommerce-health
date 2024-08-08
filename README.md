@@ -2,6 +2,9 @@
 
 A fully functional project based on an Online  Ecommerce Website that uses PHP Language with  MySQL database. Following PHP  MySQL project contains all the essential features which can be in use for the final-year IT students for their college projects. It has a number of features that will allow users to manage products and shop online.
 
+<img width="949" alt="Screenshot 2024-07-09 130858" src="https://github.com/user-attachments/assets/7dd4bf52-7c73-44f1-83cb-58e828bc8142">
+
+
 ## Features:
 
 1-Client-Side Interaction.
