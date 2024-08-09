@@ -4,6 +4,20 @@ A fully functional project based on an Online  Ecommerce Website that uses PHP L
 
 <img width="949" alt="Screenshot 2024-07-09 130858" src="https://github.com/user-attachments/assets/7dd4bf52-7c73-44f1-83cb-58e828bc8142">
 
+## Technologies:
+
+HTML: Page layout and design
+
+CSS: Design
+
+JS: Fontend
+
+PHP: Backend
+
+Bootstrap
+
+Java Script
+
 
 ## Features:
 
