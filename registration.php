@@ -107,10 +107,10 @@ if (isset($_POST['form1'])) {
                                         cust_s_name,
                                         cust_s_cname,
                                         cust_s_phone,
-                                        cust_s_country,
+                                        
                                         cust_s_address,
                                         cust_s_city,
-                                        cust_s_state,
+                                        cust_s_state,cust_s_country,
                                         cust_s_zip,
                                         cust_password,
                                         cust_token,
