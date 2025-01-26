@@ -6,15 +6,15 @@ if ( (!isset($_REQUEST['email'])) || (isset($_REQUEST['token'])) )
     $var = 1;
 
     // check if the token is correct and match with database.
-    $statement = $pdo->prepare("SELECT * FROM tbl_customer WHERE cust_email=?");
-    $statement->execute(array($_REQUEST['email']));
-    $result = $statement->fetchAll(PDO::FETCH_ASSOC);                           
-    foreach ($result as $row) {
-        if($_REQUEST['token'] != $row['cust_token']) {
-            header('location: '.BASE_URL);
-            exit;
-        }
-    }
+    // $statement = $pdo->prepare("SELECT * FROM tbl_customer WHERE cust_email=?");
+    // $statement->execute(array($_REQUEST['email']));
+    // $result = $statement->fetchAll(PDO::FETCH_ASSOC);                           
+    // foreach ($result as $row) {
+    //     if($_REQUEST['token'] != $row['cust_token']) {
+    //         header('location: '.BASE_URL);
+    //         exit;
+    //     }
+    // }
 
     // everything is correct. now activate the user removing token value from database.
     if($var != 0)
