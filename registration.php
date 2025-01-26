@@ -180,6 +180,7 @@ if (isset($_POST['form1'])) {
         // unset($_POST['cust_zip']);
 
         $success_message = LANG_VALUE_152;
+        header('Location: login.php')
     }
 }
 ?>
