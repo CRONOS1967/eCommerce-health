@@ -85,7 +85,7 @@ if (isset($_POST['form1'])) {
         $cust_timestamp = time();
     
         // Hash the password
-        $hashed_password = password_hash($_POST['cust_password'], PASSWORD_BCRYPT);
+        $hashed_password =md5($_POST['cust_password']);
     
         // Prepare the SQL statement
         $statement = $pdo->prepare("
