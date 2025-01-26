@@ -148,7 +148,7 @@ if (isset($_POST['form1'])) {
                                         $token,
                                         $cust_datetime,
                                         $cust_timestamp,
-                                        0
+                                        1
                                     ));
 
         // Send email for confirmation of the account
@@ -179,7 +179,7 @@ if (isset($_POST['form1'])) {
         // unset($_POST['cust_state']);
         // unset($_POST['cust_zip']);
 
-        // $success_message = LANG_VALUE_152;
+        $success_message = LANG_VALUE_152;
     }
 }
 ?>
