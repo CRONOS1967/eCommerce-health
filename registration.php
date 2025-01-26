@@ -150,7 +150,11 @@ if (isset($_POST['form1'])) {
                                         $cust_timestamp,
                                         1
                                     ));
-                                    header('Location: login.php')
+                                    if ($statement) {
+                                        echo '<meta http-equiv="refresh" content="2;url=login.php">';
+                                        echo '<p>Registration successful. Redirecting to login page...</p>';
+                                        exit();
+                                    }
         // Send email for confirmation of the account
         $to = $_POST['cust_email'];
 
