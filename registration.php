@@ -151,35 +151,35 @@ if (isset($_POST['form1'])) {
                                         0
                                     ));
 
-//         // Send email for confirmation of the account
-//         $to = $_POST['cust_email'];
+        // Send email for confirmation of the account
+        $to = $_POST['cust_email'];
 
-//         $subject = LANG_VALUE_150;
-//         $verify_link = BASE_URL.'verify.php?email='.$to.'&token='.$token;
-//         $message = '
-// '.LANG_VALUE_151.'<br><br>
+        $subject = LANG_VALUE_150;
+        $verify_link = BASE_URL.'verify.php?email='.$to.'&token='.$token;
+        $message = '
+'.LANG_VALUE_151.'<br><br>
 
-// <a href="'.$verify_link.'">'.$verify_link.'</a>';
+<a href="'.$verify_link.'">'.$verify_link.'</a>';
 
-//         $headers = "From: noreply@" . BASE_URL . "\r\n" .
-//                    "Reply-To: noreply@" . BASE_URL . "\r\n" .
-//                    "X-Mailer: PHP/" . phpversion() . "\r\n" .
-//                    "MIME-Version: 1.0\r\n" .
-//                    "Content-Type: text/html; charset=ISO-8859-1\r\n";
+        $headers = "From: noreply@" . BASE_URL . "\r\n" .
+                   "Reply-To: noreply@" . BASE_URL . "\r\n" .
+                   "X-Mailer: PHP/" . phpversion() . "\r\n" .
+                   "MIME-Version: 1.0\r\n" .
+                   "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-//         // Sending Email
-//         mail($to, $subject, $message, $headers);
+        // Sending Email
+        // mail($to, $subject, $message, $headers);
 
-//         unset($_POST['cust_name']);
-//         unset($_POST['cust_cname']);
-//         unset($_POST['cust_email']);
-//         unset($_POST['cust_phone']);
-//         unset($_POST['cust_address']);
-//         unset($_POST['cust_city']);
-//         unset($_POST['cust_state']);
-//         unset($_POST['cust_zip']);
+        // unset($_POST['cust_name']);
+        // unset($_POST['cust_cname']);
+        // unset($_POST['cust_email']);
+        // unset($_POST['cust_phone']);
+        // unset($_POST['cust_address']);
+        // unset($_POST['cust_city']);
+        // unset($_POST['cust_state']);
+        // unset($_POST['cust_zip']);
 
-//         $success_message = LANG_VALUE_152;
+        // $success_message = LANG_VALUE_152;
     }
 }
 ?>
@@ -198,7 +198,7 @@ if (isset($_POST['form1'])) {
 
 
 
-                    <form action="" method="post">
+                    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
                         <?php $csrf->echoInputField(); ?>
                         <div class="row">
                             <div class="col-md-2"></div>
