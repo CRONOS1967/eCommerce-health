@@ -6,16 +6,16 @@ ini_set('error_reporting', E_ALL);
 date_default_timezone_set('Africa/Addis_Ababa');
 
 // Host Name
-$dbhost = 'localhost';
+$dbhost = 'sql205.infinityfree.com';
 
 // Database Name
-$dbname = 'yqqrzvsxuw';
+$dbname = 'if0_38193090_yqqrzvsxuw';
 
 // Database Username
-$dbuser = 'yqqrzvsxuw';
+$dbuser = 'if0_38193090';
 
 // Database Password
-$dbpass = 'sp6nnmcpVe';
+$dbpass = 'S7SKOUCyAVj9gw';
 
 // Defining base url
 define("BASE_URL", "");
